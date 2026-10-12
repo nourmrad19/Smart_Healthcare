@@ -1,0 +1,239 @@
+{
+  "num_rounds": 5,
+  "local_epochs": 2,
+  "total_seconds": 20.83034896850586,
+  "final_aggregated_accuracy": 0.8878838132569475,
+  "final_aggregated_loss": 0.33531120381910506,
+  "history": [
+    {
+      "round": 1,
+      "elapsed_seconds": 5.680715799331665,
+      "fit": {
+        "1": {
+          "num_examples": 26532,
+          "train_loss": 0.344330659409409,
+          "train_accuracy": 0.8878712498115483,
+          "fit_time": 0.9602651596069336
+        },
+        "2": {
+          "num_examples": 26531,
+          "train_loss": 0.34338612306365585,
+          "train_accuracy": 0.88794240699559,
+          "fit_time": 0.8654842376708984
+        },
+        "3": {
+          "num_examples": 26531,
+          "train_loss": 0.34535000690310885,
+          "train_accuracy": 0.8876785646979005,
+          "fit_time": 0.9104640483856201
+        }
+      },
+      "evaluate": {
+        "1": {
+          "num_examples": 6633,
+          "loss": 0.3396779980780617,
+          "accuracy": 0.8878335594753505
+        },
+        "2": {
+          "num_examples": 6633,
+          "loss": 0.3379716824194829,
+          "accuracy": 0.8878335594753505
+        },
+        "3": {
+          "num_examples": 6633,
+          "loss": 0.3363992028622431,
+          "accuracy": 0.8872305140961857
+        }
+      },
+      "aggregated_loss": 0.3380162944532626,
+      "aggregated_accuracy": 0.8876325443489622
+    },
+    {
+      "round": 2,
+      "elapsed_seconds": 3.6406705379486084,
+      "fit": {
+        "1": {
+          "num_examples": 26532,
+          "train_loss": 0.3408067434707163,
+          "train_accuracy": 0.8877581788029549,
+          "fit_time": 0.8606233596801758
+        },
+        "2": {
+          "num_examples": 26531,
+          "train_loss": 0.3396018139324628,
+          "train_accuracy": 0.88794240699559,
+          "fit_time": 0.9874763488769531
+        },
+        "3": {
+          "num_examples": 26531,
+          "train_loss": 0.3414240978821921,
+          "train_accuracy": 0.8877162564547133,
+          "fit_time": 0.8435478210449219
+        }
+      },
+      "evaluate": {
+        "1": {
+          "num_examples": 6633,
+          "loss": 0.3401386012467399,
+          "accuracy": 0.8878335594753505
+        },
+        "2": {
+          "num_examples": 6633,
+          "loss": 0.3386596007735665,
+          "accuracy": 0.8878335594753505
+        },
+        "3": {
+          "num_examples": 6633,
+          "loss": 0.3366965351511985,
+          "accuracy": 0.8873812754409769
+        }
+      },
+      "aggregated_loss": 0.33849824572383497,
+      "aggregated_accuracy": 0.8876827981305593
+    },
+    {
+      "round": 3,
+      "elapsed_seconds": 4.018442869186401,
+      "fit": {
+        "1": {
+          "num_examples": 26532,
+          "train_loss": 0.33946538004745064,
+          "train_accuracy": 0.8877958691391528,
+          "fit_time": 0.8821656703948975
+        },
+        "2": {
+          "num_examples": 26531,
+          "train_loss": 0.33807699748333064,
+          "train_accuracy": 0.88794240699559,
+          "fit_time": 0.9012830257415771
+        },
+        "3": {
+          "num_examples": 26531,
+          "train_loss": 0.3397752638812304,
+          "train_accuracy": 0.8877162564547133,
+          "fit_time": 1.111642599105835
+        }
+      },
+      "evaluate": {
+        "1": {
+          "num_examples": 6633,
+          "loss": 0.3372737636227207,
+          "accuracy": 0.8878335594753505
+        },
+        "2": {
+          "num_examples": 6633,
+          "loss": 0.33668900286470194,
+          "accuracy": 0.8878335594753505
+        },
+        "3": {
+          "num_examples": 6633,
+          "loss": 0.3341432319953757,
+          "accuracy": 0.8873812754409769
+        }
+      },
+      "aggregated_loss": 0.33603533282759945,
+      "aggregated_accuracy": 0.8876827981305593
+    },
+    {
+      "round": 4,
+      "elapsed_seconds": 3.6577234268188477,
+      "fit": {
+        "1": {
+          "num_examples": 26532,
+          "train_loss": 0.33952936463616257,
+          "train_accuracy": 0.887946630483944,
+          "fit_time": 0.917111873626709
+        },
+        "2": {
+          "num_examples": 26531,
+          "train_loss": 0.3369950658311891,
+          "train_accuracy": 0.88794240699559,
+          "fit_time": 0.9824488162994385
+        },
+        "3": {
+          "num_examples": 26531,
+          "train_loss": 0.33957699975117833,
+          "train_accuracy": 0.8878293317251517,
+          "fit_time": 0.8949723243713379
+        }
+      },
+      "evaluate": {
+        "1": {
+          "num_examples": 6633,
+          "loss": 0.3374627811614338,
+          "accuracy": 0.8882858435097241
+        },
+        "2": {
+          "num_examples": 6633,
+          "loss": 0.33653307376665603,
+          "accuracy": 0.8885873661993064
+        },
+        "3": {
+          "num_examples": 6633,
+          "loss": 0.3339898469948434,
+          "accuracy": 0.8875320367857681
+        }
+      },
+      "aggregated_loss": 0.3359952339743111,
+      "aggregated_accuracy": 0.8881350821649329
+    },
+    {
+      "round": 5,
+      "elapsed_seconds": 3.8297441005706787,
+      "fit": {
+        "1": {
+          "num_examples": 26532,
+          "train_loss": 0.338351711370225,
+          "train_accuracy": 0.8878335594753505,
+          "fit_time": 1.1354665756225586
+        },
+        "2": {
+          "num_examples": 26531,
+          "train_loss": 0.33612557008117183,
+          "train_accuracy": 0.8876785646979005,
+          "fit_time": 0.8804030418395996
+        },
+        "3": {
+          "num_examples": 26531,
+          "train_loss": 0.33868122641812265,
+          "train_accuracy": 0.8877539482115261,
+          "fit_time": 0.9396786689758301
+        }
+      },
+      "evaluate": {
+        "1": {
+          "num_examples": 6633,
+          "loss": 0.33704505881248836,
+          "accuracy": 0.8879843208201417
+        },
+        "2": {
+          "num_examples": 6633,
+          "loss": 0.335777438825456,
+          "accuracy": 0.8885873661993064
+        },
+        "3": {
+          "num_examples": 6633,
+          "loss": 0.33311111381937075,
+          "accuracy": 0.8870797527513945
+        }
+      },
+      "aggregated_loss": 0.33531120381910506,
+      "aggregated_accuracy": 0.8878838132569475
+    }
+  ],
+  "algorithm": "FedAvg",
+  "model": "DiabetesNet",
+  "n_features": 20,
+  "backend": "in-process-pytorch",
+  "hospitals": {
+    "1": {
+      "n_train": 26532
+    },
+    "2": {
+      "n_train": 26531
+    },
+    "3": {
+      "n_train": 26531
+    }
+  }
+}

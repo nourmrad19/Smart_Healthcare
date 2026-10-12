@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local datasets and generated hospital partitions
+data/raw/*
+!data/raw/.gitkeep
+data/hospital_*/
+!data/hospital_*/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Downloaded archives and local environment files
+*.zip
+.env
+.env.*
+
